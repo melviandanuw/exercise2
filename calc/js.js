@@ -13,5 +13,6 @@ function ambil(angka) {
 }
 
 function hapus() {
-    document.getElementById('layar').textContent = "";
+    document.getElementById('layar').textContent = "0";
 }
+
