@@ -6,14 +6,14 @@
 <body>
     <div class="container">
         <div class="row">
-            <div id="layar">0</div>
+            <div id="display" class="display">0</div>
         </div>
         <div class="row">
             <div class="col">
                 <button class="tombol1 t-250" onclick="hapus()">C</button>
             </div>
             <div class="col">
-                <button class="tombol2 t-100">/</button>
+                <button class="tombol2 t-100" onclick="operator('/')">/</button>
             </div>    
          
         </div>    
@@ -28,7 +28,7 @@
                 <button class="tombol2 t-75" onclick="ambil(9)">9</button>
             </div>   
             <div class="col">
-                <button class="tombol2 t-100">x</button>
+                <button class="tombol2 t-100" onclick="operator('*')">x</button>
             </div>   
             
 
@@ -44,7 +44,7 @@
                 <button class="tombol2 t-75" onclick="ambil(6)">6</button>
             </div>   
             <div class="col">
-                <button class="tombol2 t-100">-</button>
+                <button class="tombol2 t-100" onclick="operator('-')">-</button>
             </div>   
              
 
@@ -60,7 +60,7 @@
                 <button class="tombol2 t-75" onclick="ambil(3)">3</button>
             </div>   
             <div class="col">
-                <button class="tombol2 t-100">+</button>
+                <button class="tombol2 t-100" onclick="operator('+')">+</button>
             </div>   
              
 
@@ -70,15 +70,15 @@
                 <button class="tombol2 t-155" onclick="ambil(0)">0</button>
             </div>   
             <div class="col">
-                <button class="tombol2 t-75">.</button>
+                <button class="tombol2 t-75" onclick="koma('.')">.</button>
             </div>   
             <div class="col">
-                <button class="tombol2 t-100">=</button>
+                <button class="tombol2 t-100" onclick="hitung()">=</button>
             </div>   
              
 
         </div>
-        <p class="footer">Melvian Danu Wijaya</p>
+        <p class="footer">Javascript Development Course</p>
     </div>
     <script src="js.js"></script>
 </body>
